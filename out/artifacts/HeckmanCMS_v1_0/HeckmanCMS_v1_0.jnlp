@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="HeckmanCMS_v1_0.jnlp">
+  <information>
+    <title>HeckmanCMS-v1.0</title>
+    <vendor>Unknown</vendor>
+    <description>HeckmanCMS-v1.0</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="HeckmanCMS_v1_0.jar" size="2419" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="1400" height="800" main-class="sample.Main"  name="HeckmanCMS-v1.0" />
+  <update check="background"/>
+</jnlp>
